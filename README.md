@@ -86,6 +86,22 @@ OPC (OLE for Process Control) is a series of standards used in industrial automa
 
 For new projects or when upgrading existing systems, **OPC UA** is generally recommended due to its robustness, flexibility, and future readiness.
 
+**Here's a table summarizing the key differences:**
+
+| Feature          | OPC DA                         | OPC UA                            |
+|-----------------|---------------------------------|------------------------------------|
+| **Foundation**   | COM/DCOM                       | Platform-Independent             |
+| **Platform**     | Primarily Windows                | Cross-Platform (Windows, Linux, etc.) |
+| **Focus**        | Real-time Data Access          | Broader Functionality (Data, History, Alarms, Events) |
+| **Security**     | DCOM Security (Complex)        | Built-in Security (Robust)        |
+| **Discovery**    | Limited                        | Built-in Discovery Mechanisms     |
+| **Data Encoding** | Primarily Binary               | Binary, XML, JSON                 |
+| **Functionality**| Basic Data Access              | Richer Set of Services, Information Modeling |
+| **Complexity**   | Can be more complex to configure | Designed for easier configuration |
+
+
+
+
 ## Learn OPC UA using Cogent DataHub and telegraf
 
 

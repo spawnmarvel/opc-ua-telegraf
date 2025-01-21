@@ -165,6 +165,11 @@ In the realm of OPC (OLE for Process Control) standards, both OPC DA (Data Acces
 
 https://github.com/influxdata/telegraf/blob/master/plugins/inputs/opcua/README.md
 
+
+### Certificate and Private key OPC UA telegraf plugin
+
+https://community.influxdata.com/t/certificate-and-private-key-opc-ua-telegraf-plugin/23326
+
 ### Cogent DataHub
 
 
